@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_pen_btn"
+        android:icon="@drawable/ic_action_content_edit_white"
+        android:title="@string/action_pen_btn"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_pic_btn"
+        android:icon="@drawable/ic_action_content_picture_white"
+        android:title="@string/action_pic_btn"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_camera_btn"
+        android:icon="@drawable/ic_action_device_access_camera_white"
+        android:title="@string/action_camera_btn"
+        app:showAsAction="always"/>
+    <!--<item-->
+        <!--android:id="@+id/action_background_btn"-->
+        <!--android:icon="@drawable/ic_action_pifu"-->
+        <!--android:showAsAction="always"-->
+        <!--android:title="@string/action_background_btn"-->
+        <!--app:showAsAction="always"/>-->
+    <!--<item-->
+        <!--android:id="@+id/action_reply"-->
+        <!--android:icon="@drawable/ic_action_social_reply"-->
+        <!--android:showAsAction="always"-->
+        <!--android:title="@string/action_reply_btn"-->
+        <!--app:showAsAction="always"/>-->
+    <!--<item-->
+        <!--android:id="@+id/action_trash_btn"-->
+        <!--android:icon="@drawable/ic_action_content_discard"-->
+        <!--android:showAsAction="always"-->
+        <!--android:title="@string/action_trash_btn"-->
+        <!--app:showAsAction="always"/>-->
+
+</menu>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/fragment_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@+id/recordbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:background="@null"
+        android:src="@drawable/ic_action_weike_record_btn_back" />
+
+    <ImageView
+        android:id="@+id/recordbtn_info_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@id/recordbtn" />
+
+    <TextView
+        android:id="@+id/recordbtn_info_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/recordbtn"
+        android:layout_alignLeft="@id/recordbtn"
+        android:layout_margin="10dp"
+        android:text="@string/micro_class_oprate_info"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/recordtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="10dp"
+        android:textSize="18sp" />
+
+</RelativeLayout>
