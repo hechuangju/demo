@@ -26,6 +26,7 @@ public class FullscreenActivity extends AppCompatActivity {
         setContentView(R.layout.activity_fullscreen);
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         controlsView = findViewById(R.id.fullscreen_content_controls);
         final MicroClassPlayView contentView = (MicroClassPlayView) findViewById(R.id.draw_convas_view);
