@@ -38,6 +38,9 @@ public class FullscreenActivity extends AppCompatActivity {
         public void onClick(View view) {
             toolbar.bringToFront();
             controlsView.bringToFront();
+
+
+
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB_MR2) {
                 int mControlsHeight = controlsView.getHeight();
                 int mShortAnimTime = getResources().getInteger(android.R.integer.config_shortAnimTime);
